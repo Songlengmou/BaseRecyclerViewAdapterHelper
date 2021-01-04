@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.anningtex.baserecyclerviewadapterhelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".manger.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaseRecyclerViewAdapterHelper"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".act.node.NodeTreeUseActivity" />
+        <activity android:name=".act.node.NodeSectionUseActivity" />
+        <activity android:name=".act.multi.MultiItemProviderUseActivity" />
+        <activity android:name=".act.multi.MultiItemDelegateUseActivity" />
+        <activity android:name=".act.multi.MultiItemQuickUseActivity" />
+        <activity android:name=".act.multi.BinderUseActivity" />
+        <activity android:name=".act.UpFetchUseActivity" />
+        <activity android:name=".act.DragAndSwipeUseActivity" />
+        <activity android:name=".act.LoadMoreRefreshUseActivity" />
+        <activity android:name=".act.ChooseNodeUseTypeActivity" />
+        <activity android:name=".act.SectionQuickUseActivity" />
+        <activity android:name=".act.ChooseMultipleItemUseTypeActivity" />
+        <activity android:name=".act.DiffUtilActivity" />
+        <activity android:name=".act.DataBindingUseActivity" />
+        <activity android:name=".act.ItemClickActivity" />
+        <activity android:name=".act.EmptyViewUseActivity" />
+        <activity android:name=".act.HeaderAndFooterUseActivity" />
+        <activity android:name=".act.AnimationUseActivity" />
+        <activity android:name=".act.HomeActivity" />
+        <activity android:name=".act.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
