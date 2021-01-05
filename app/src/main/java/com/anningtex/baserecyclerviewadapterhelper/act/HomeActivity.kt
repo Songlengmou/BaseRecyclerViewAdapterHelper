@@ -75,9 +75,10 @@ class HomeActivity : AppCompatActivity(), OnItemClickListener {
                 DragAndSwipeUseActivity::class.java,
                 R.mipmap.gv_drag_and_swipe
             ),
-            HomeEntity("UpFetch", UpFetchUseActivity::class.java, R.drawable.gv_up_fetch)
-//                HomeEntity("MultipleDragAndSwipe", null, R.mipmap.gv_drag_and_swipe),
-//                HomeEntity("SectionMultipleItem", null, R.mipmap.gv_multipleltem)
+            HomeEntity("UpFetch", UpFetchUseActivity::class.java, R.drawable.gv_up_fetch),
+
+            HomeEntity(headerTitle = "Test BaseRecycleAdapter"),
+            HomeEntity("UseLibrary", UseLibraryDataActivity::class.java, R.drawable.gv_animation)
         )
 }
 

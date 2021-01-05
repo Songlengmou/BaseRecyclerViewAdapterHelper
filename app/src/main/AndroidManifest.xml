@@ -15,6 +15,7 @@
         android:theme="@style/Theme.BaseRecyclerViewAdapterHelper"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <activity android:name=".act.UseLibraryDataActivity" />
         <activity android:name=".act.node.NodeTreeUseActivity" />
         <activity android:name=".act.node.NodeSectionUseActivity" />
         <activity android:name=".act.multi.MultiItemProviderUseActivity" />
