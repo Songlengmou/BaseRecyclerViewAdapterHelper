@@ -45,11 +45,21 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    // library
+    //1. BaseRecyclerViewAdapterHelper包下
+    //library
     implementation project(path: ':library')
     //Other
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.kyleduo.switchbutton:library:2.0.0'
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     implementation 'com.jaredrummler:material-spinner:1.0.5'
+    //2. MultiType包下
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    //FastJson
+    implementation 'com.alibaba:fastjson:1.2.39'
+    //3. TestData包下
+    //GSon
+    implementation 'com.google.code.gson:gson:2.8.1'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
 }

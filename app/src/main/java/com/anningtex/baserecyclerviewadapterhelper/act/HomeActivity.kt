@@ -8,6 +8,8 @@ import com.anningtex.baserecyclerviewadapterhelper.R
 import com.anningtex.baserecyclerviewadapterhelper.adapter.HomeAdapter
 import com.anningtex.baserecyclerviewadapterhelper.databinding.ActivityHomeBinding
 import com.anningtex.baserecyclerviewadapterhelper.entity.HomeEntity
+import com.anningtex.multitype.test.TestAllRecycleActivity
+import com.anningtex.testdata.TestDataActivity
 import com.syp.library.BaseQuickAdapter
 import com.syp.library.listener.OnItemClickListener
 
@@ -78,7 +80,13 @@ class HomeActivity : AppCompatActivity(), OnItemClickListener {
             HomeEntity("UpFetch", UpFetchUseActivity::class.java, R.drawable.gv_up_fetch),
 
             HomeEntity(headerTitle = "Test BaseRecycleAdapter"),
-            HomeEntity("UseLibrary", UseLibraryDataActivity::class.java, R.drawable.gv_animation)
+            HomeEntity("UseLibrary", UseLibraryDataActivity::class.java, R.drawable.gv_animation),
+
+            HomeEntity(headerTitle = "多类型RecyclerAdapter与Test"),
+            HomeEntity("TestRecyclerAdapter", TestAllRecycleActivity::class.java, R.mipmap.gv_expandable),
+
+            HomeEntity(headerTitle = "Test 测试"),
+            HomeEntity("TestData", TestDataActivity::class.java, R.mipmap.gv_section)
         )
 }
 

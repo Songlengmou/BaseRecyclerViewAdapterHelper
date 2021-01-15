@@ -15,6 +15,27 @@
         android:theme="@style/Theme.BaseRecyclerViewAdapterHelper"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <activity android:name="com.anningtex.testdata.four.FourActivity" />
+        <activity android:name="com.anningtex.testdata.three.ThreeActivity" />
+        <activity android:name="com.anningtex.testdata.two.TwoActivity" />
+        <activity android:name="com.anningtex.testdata.one.OneActivity" />
+        <activity android:name="com.anningtex.testdata.TestDataActivity" />
+        <activity android:name="com.anningtex.multitype.test.group.GroupActivity" />
+        <activity android:name="com.anningtex.multitype.test.headerFoot.MixHeadFootActivity" />
+        <activity android:name="com.anningtex.multitype.test.stickheader.StickHeaderActivity" />
+        <activity android:name="com.anningtex.multitype.test.stickheader.Sticky4Activity" />
+        <activity android:name="com.anningtex.multitype.test.stickheader.Sticky3Activity" />
+        <activity android:name="com.anningtex.multitype.test.stickheader.Sticky2Activity" />
+        <activity android:name="com.anningtex.multitype.test.itemTouch.ItemTouchActivity" />
+        <activity android:name="com.anningtex.multitype.test.pull_load.PullLoadActivity" />
+        <activity android:name="com.anningtex.multitype.test.mix.TimeLineActivity" />
+        <activity android:name="com.anningtex.multitype.test.mix.WaterFallActivity" />
+        <activity android:name="com.anningtex.multitype.test.mix.MixActivity" />
+        <activity android:name="com.anningtex.multitype.test.one2many.One2ManyActivity" />
+        <activity android:name="com.anningtex.multitype.test.manyData.MultiDataActivity" />
+        <activity android:name="com.anningtex.multitype.test.empty.EmptyActivity" />
+        <activity android:name="com.anningtex.multitype.test.anim.AnimatorActivity" />
+        <activity android:name="com.anningtex.multitype.test.TestAllRecycleActivity" />
         <activity android:name=".act.UseLibraryDataActivity" />
         <activity android:name=".act.node.NodeTreeUseActivity" />
         <activity android:name=".act.node.NodeSectionUseActivity" />
